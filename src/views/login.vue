@@ -53,9 +53,9 @@ export default {
             // this.$router.push({name:'father', params:this.obj})
             // this.$router.push({path:'father', query:this.obj})
             userService.login(this.obj).then(() => {
-              this.$router.push({path:'father', query:this.obj})
+              this.$router.push({path:'father', query:this.obj});
             }, err => {
-              alert(err)
+              alert(err);
             })
         }
     },
