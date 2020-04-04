@@ -4,7 +4,7 @@ import router from './router/router'
 import store from './store/index'
 import http from './http/index'
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 
 Vue.use(http);
 
